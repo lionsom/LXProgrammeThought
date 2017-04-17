@@ -23,12 +23,12 @@
     代表：ReactiveCocoa。
 
 
-## 使用*链式编程*思想实现计算器
-参考：http://www.cocoachina.com/ios/20160224/15408.html
-具体看demo
-分析下这个方法执行过程：
-第一步：NSObject 创建了一个block, 这个block里创建了一个CaculatorMaker对象make，并返回出来
-第二步：这个对象make调用方法add时，里面持有的属性iResult做了一个加法，并且返回自己，以便可以接下去继续调用方法。 
+## 使用*链式编程*思想实现计算器<br>
+参考：http://www.cocoachina.com/ios/20160224/15408.html<br>
+具体看demo<br>
+分析下这个方法执行过程：<br>
+第一步：NSObject 创建了一个block, 这个block里创建了一个CaculatorMaker对象make，并返回出来<br>
+第二步：这个对象make调用方法add时，里面持有的属性iResult做了一个加法，并且返回自己，以便可以接下去继续调用方法。 <br>
 
 
 
