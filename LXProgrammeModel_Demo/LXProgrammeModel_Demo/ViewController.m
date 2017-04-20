@@ -12,6 +12,8 @@
 
 #import "NSObject+CaculatorMaker.h"
 
+#import "LXButton.h"
+
 @interface ViewController ()
 
 @end
@@ -37,6 +39,15 @@
     
 }
 
+- (IBAction)LianShiCallBack_UIButton:(id)sender {
+    
+    [LXButton makeJJButton:^(LXButton *button) {
+        button.title(@"xixixi").imageName(@"abc").titleFont(20).textColor([UIColor orangeColor]).btnframe(CGRectMake(100, 100, 100, 100));
+        button.frame = CGRectMake(100, 250, 100, 100);
+        [self.view addSubview:button];
+        [button addTarget:self action:@selector(didClick:) forControlEvents:UIControlEventTouchUpInside];
+    }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

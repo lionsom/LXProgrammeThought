@@ -7,17 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		462F4D531EA887E400223CCF /* LXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 462F4D521EA887E400223CCF /* LXButton.m */; };
+		462F4D581EA8880B00223CCF /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 462F4D551EA8880B00223CCF /* CaculatorMaker.m */; };
+		462F4D591EA8880B00223CCF /* NSObject+CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 462F4D571EA8880B00223CCF /* NSObject+CaculatorMaker.m */; };
 		466C95F61EA4AB1E00947A2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 466C95F51EA4AB1E00947A2D /* main.m */; };
 		466C95F91EA4AB1E00947A2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 466C95F81EA4AB1E00947A2D /* AppDelegate.m */; };
 		466C95FC1EA4AB1E00947A2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 466C95FB1EA4AB1E00947A2D /* ViewController.m */; };
 		466C95FF1EA4AB1E00947A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466C95FD1EA4AB1E00947A2D /* Main.storyboard */; };
 		466C96011EA4AB1E00947A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466C96001EA4AB1E00947A2D /* Assets.xcassets */; };
 		466C96041EA4AB1E00947A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466C96021EA4AB1E00947A2D /* LaunchScreen.storyboard */; };
-		466C960E1EA4ABC100947A2D /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 466C960D1EA4ABC100947A2D /* CaculatorMaker.m */; };
-		466C96111EA4ACEF00947A2D /* NSObject+CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 466C96101EA4ACEF00947A2D /* NSObject+CaculatorMaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		462F4D511EA887E400223CCF /* LXButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LXButton.h; path = "链式编程-UIbutton/LXButton.h"; sourceTree = "<group>"; };
+		462F4D521EA887E400223CCF /* LXButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LXButton.m; path = "链式编程-UIbutton/LXButton.m"; sourceTree = "<group>"; };
+		462F4D541EA8880B00223CCF /* CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaculatorMaker.h; path = "链式编程-caculator/CaculatorMaker.h"; sourceTree = "<group>"; };
+		462F4D551EA8880B00223CCF /* CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaculatorMaker.m; path = "链式编程-caculator/CaculatorMaker.m"; sourceTree = "<group>"; };
+		462F4D561EA8880B00223CCF /* NSObject+CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+CaculatorMaker.h"; path = "链式编程-caculator/NSObject+CaculatorMaker.h"; sourceTree = "<group>"; };
+		462F4D571EA8880B00223CCF /* NSObject+CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CaculatorMaker.m"; path = "链式编程-caculator/NSObject+CaculatorMaker.m"; sourceTree = "<group>"; };
 		466C95F11EA4AB1E00947A2D /* LXProgrammeModel_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXProgrammeModel_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466C95F51EA4AB1E00947A2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		466C95F71EA4AB1E00947A2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,10 +35,6 @@
 		466C96001EA4AB1E00947A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		466C96031EA4AB1E00947A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		466C96051EA4AB1E00947A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		466C960C1EA4ABC100947A2D /* CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CaculatorMaker.h; path = "链式编程/CaculatorMaker.h"; sourceTree = "<group>"; };
-		466C960D1EA4ABC100947A2D /* CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaculatorMaker.m; path = "链式编程/CaculatorMaker.m"; sourceTree = "<group>"; };
-		466C960F1EA4ACEF00947A2D /* NSObject+CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+CaculatorMaker.h"; path = "链式编程/NSObject+CaculatorMaker.h"; sourceTree = "<group>"; };
-		466C96101EA4ACEF00947A2D /* NSObject+CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CaculatorMaker.m"; path = "链式编程/NSObject+CaculatorMaker.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		462F4D501EA8879900223CCF /* 链式编程-UIbutton */ = {
+			isa = PBXGroup;
+			children = (
+				462F4D511EA887E400223CCF /* LXButton.h */,
+				462F4D521EA887E400223CCF /* LXButton.m */,
+			);
+			name = "链式编程-UIbutton";
+			sourceTree = "<group>";
+		};
 		466C95E81EA4AB1E00947A2D = {
 			isa = PBXGroup;
 			children = (
@@ -64,7 +76,8 @@
 		466C95F31EA4AB1E00947A2D /* LXProgrammeModel_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				466C960B1EA4AB8000947A2D /* 链式编程 */,
+				462F4D501EA8879900223CCF /* 链式编程-UIbutton */,
+				466C960B1EA4AB8000947A2D /* 链式编程-caculator */,
 				466C95F71EA4AB1E00947A2D /* AppDelegate.h */,
 				466C95F81EA4AB1E00947A2D /* AppDelegate.m */,
 				466C95FA1EA4AB1E00947A2D /* ViewController.h */,
@@ -86,15 +99,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		466C960B1EA4AB8000947A2D /* 链式编程 */ = {
+		466C960B1EA4AB8000947A2D /* 链式编程-caculator */ = {
 			isa = PBXGroup;
 			children = (
-				466C960C1EA4ABC100947A2D /* CaculatorMaker.h */,
-				466C960D1EA4ABC100947A2D /* CaculatorMaker.m */,
-				466C960F1EA4ACEF00947A2D /* NSObject+CaculatorMaker.h */,
-				466C96101EA4ACEF00947A2D /* NSObject+CaculatorMaker.m */,
+				462F4D541EA8880B00223CCF /* CaculatorMaker.h */,
+				462F4D551EA8880B00223CCF /* CaculatorMaker.m */,
+				462F4D561EA8880B00223CCF /* NSObject+CaculatorMaker.h */,
+				462F4D571EA8880B00223CCF /* NSObject+CaculatorMaker.m */,
 			);
-			name = "链式编程";
+			name = "链式编程-caculator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,10 +183,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				466C95FC1EA4AB1E00947A2D /* ViewController.m in Sources */,
-				466C960E1EA4ABC100947A2D /* CaculatorMaker.m in Sources */,
 				466C95F91EA4AB1E00947A2D /* AppDelegate.m in Sources */,
+				462F4D581EA8880B00223CCF /* CaculatorMaker.m in Sources */,
+				462F4D531EA887E400223CCF /* LXButton.m in Sources */,
+				462F4D591EA8880B00223CCF /* NSObject+CaculatorMaker.m in Sources */,
 				466C95F61EA4AB1E00947A2D /* main.m in Sources */,
-				466C96111EA4ACEF00947A2D /* NSObject+CaculatorMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +344,7 @@
 				466C960A1EA4AB1E00947A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
