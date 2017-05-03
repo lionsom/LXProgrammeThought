@@ -40,6 +40,24 @@
                                     <action selector="LianshiCallBack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dUa-3g-5jn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1x-bh-H0A">
+                                <rect key="frame" x="0.0" y="126" width="226" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71331074709999998" green="1" blue="0.39553278689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="响应式编程-KVO"/>
+                                <connections>
+                                    <action selector="KVOCallBack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XnQ-MX-R2c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJX-sh-5Mi">
+                                <rect key="frame" x="0.0" y="179" width="226" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71331074709999998" green="1" blue="0.39553278689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="响应式编程-自定义KVO"/>
+                                <connections>
+                                    <action selector="Self_KVOCallBack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kw9-i7-4pR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>

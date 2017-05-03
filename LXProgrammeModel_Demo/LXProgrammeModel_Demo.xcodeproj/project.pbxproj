@@ -10,6 +10,9 @@
 		462F4D531EA887E400223CCF /* LXButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 462F4D521EA887E400223CCF /* LXButton.m */; };
 		462F4D581EA8880B00223CCF /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 462F4D551EA8880B00223CCF /* CaculatorMaker.m */; };
 		462F4D591EA8880B00223CCF /* NSObject+CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 462F4D571EA8880B00223CCF /* NSObject+CaculatorMaker.m */; };
+		462F4D5D1EA8BF7F00223CCF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 462F4D5C1EA8BF7F00223CCF /* Person.m */; };
+		462F4D601EA8D7E300223CCF /* NSObject+LXKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 462F4D5F1EA8D7E300223CCF /* NSObject+LXKVO.m */; };
+		466833571EA9A79F00351C00 /* sumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 466833561EA9A79F00351C00 /* sumManager.m */; };
 		466C95F61EA4AB1E00947A2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 466C95F51EA4AB1E00947A2D /* main.m */; };
 		466C95F91EA4AB1E00947A2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 466C95F81EA4AB1E00947A2D /* AppDelegate.m */; };
 		466C95FC1EA4AB1E00947A2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 466C95FB1EA4AB1E00947A2D /* ViewController.m */; };
@@ -25,6 +28,12 @@
 		462F4D551EA8880B00223CCF /* CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CaculatorMaker.m; path = "链式编程-caculator/CaculatorMaker.m"; sourceTree = "<group>"; };
 		462F4D561EA8880B00223CCF /* NSObject+CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+CaculatorMaker.h"; path = "链式编程-caculator/NSObject+CaculatorMaker.h"; sourceTree = "<group>"; };
 		462F4D571EA8880B00223CCF /* NSObject+CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CaculatorMaker.m"; path = "链式编程-caculator/NSObject+CaculatorMaker.m"; sourceTree = "<group>"; };
+		462F4D5B1EA8BF7F00223CCF /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = "响应式编程/Person.h"; sourceTree = "<group>"; };
+		462F4D5C1EA8BF7F00223CCF /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = "响应式编程/Person.m"; sourceTree = "<group>"; };
+		462F4D5E1EA8D7E300223CCF /* NSObject+LXKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+LXKVO.h"; path = "响应式编程/NSObject+LXKVO.h"; sourceTree = "<group>"; };
+		462F4D5F1EA8D7E300223CCF /* NSObject+LXKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LXKVO.m"; path = "响应式编程/NSObject+LXKVO.m"; sourceTree = "<group>"; };
+		466833551EA9A79F00351C00 /* sumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sumManager.h; path = "函数式编程/sumManager.h"; sourceTree = "<group>"; };
+		466833561EA9A79F00351C00 /* sumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sumManager.m; path = "函数式编程/sumManager.m"; sourceTree = "<group>"; };
 		466C95F11EA4AB1E00947A2D /* LXProgrammeModel_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXProgrammeModel_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466C95F51EA4AB1E00947A2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		466C95F71EA4AB1E00947A2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +66,26 @@
 			name = "链式编程-UIbutton";
 			sourceTree = "<group>";
 		};
+		462F4D5A1EA8BE0600223CCF /* 响应式编程-自定义KVO */ = {
+			isa = PBXGroup;
+			children = (
+				462F4D5B1EA8BF7F00223CCF /* Person.h */,
+				462F4D5C1EA8BF7F00223CCF /* Person.m */,
+				462F4D5E1EA8D7E300223CCF /* NSObject+LXKVO.h */,
+				462F4D5F1EA8D7E300223CCF /* NSObject+LXKVO.m */,
+			);
+			name = "响应式编程-自定义KVO";
+			sourceTree = "<group>";
+		};
+		466833541EA9A77600351C00 /* 函数式编程 */ = {
+			isa = PBXGroup;
+			children = (
+				466833551EA9A79F00351C00 /* sumManager.h */,
+				466833561EA9A79F00351C00 /* sumManager.m */,
+			);
+			name = "函数式编程";
+			sourceTree = "<group>";
+		};
 		466C95E81EA4AB1E00947A2D = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +105,8 @@
 		466C95F31EA4AB1E00947A2D /* LXProgrammeModel_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				466833541EA9A77600351C00 /* 函数式编程 */,
+				462F4D5A1EA8BE0600223CCF /* 响应式编程-自定义KVO */,
 				462F4D501EA8879900223CCF /* 链式编程-UIbutton */,
 				466C960B1EA4AB8000947A2D /* 链式编程-caculator */,
 				466C95F71EA4AB1E00947A2D /* AppDelegate.h */,
@@ -184,6 +215,9 @@
 			files = (
 				466C95FC1EA4AB1E00947A2D /* ViewController.m in Sources */,
 				466C95F91EA4AB1E00947A2D /* AppDelegate.m in Sources */,
+				466833571EA9A79F00351C00 /* sumManager.m in Sources */,
+				462F4D601EA8D7E300223CCF /* NSObject+LXKVO.m in Sources */,
+				462F4D5D1EA8BF7F00223CCF /* Person.m in Sources */,
 				462F4D581EA8880B00223CCF /* CaculatorMaker.m in Sources */,
 				462F4D531EA887E400223CCF /* LXButton.m in Sources */,
 				462F4D591EA8880B00223CCF /* NSObject+CaculatorMaker.m in Sources */,
@@ -306,6 +340,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2STZ5AM32F;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = LXProgrammeModel_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.minxing.LXProgrammeModel-Demo";
@@ -318,6 +353,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2STZ5AM32F;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = LXProgrammeModel_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.minxing.LXProgrammeModel-Demo";
